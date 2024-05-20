@@ -1,3 +1,6 @@
+## Paper
+- https://zrr.kr/6i8d
+
 ## Summary
 - Traditional tracking models are vulnerable to occlusion, which causes identity switches when an object (person) is occluded by another object.
 - This study uses two cameras to prevent identity switches for occluded objects.
