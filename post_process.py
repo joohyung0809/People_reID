@@ -137,9 +137,9 @@ for record1, record2 in zip(frame_data_list1, frame_data_list2):
             new_id = [id_ for id_ in record1["id"] if id_ not in first_video_id]
             target_id = [id_ for id_ in first_video_id if id_ not in record1["id"]]
             
-            print("1번 : ...",record1["frame_num"])
-            print(new_id)
-            print(target_id)
+            # print("1번 : ...",record1["frame_num"])
+            # print(new_id)
+            # print(target_id)
             
             for original, change in zip(new_id, target_id):
                 record1["id"][record1["id"].index(original)] = change
@@ -165,9 +165,9 @@ for record1, record2 in zip(frame_data_list1, frame_data_list2):
             # print(new_id)
             # print(target_id)
             
-            print("2번 : ...",record2["frame_num"])
-            print(new_id)
-            print(target_id)
+            # print("2번 : ...",record2["frame_num"])
+            # print(new_id)
+            # print(target_id)
             
             for original, change in zip(new_id, target_id):
                 record2["id"][record2["id"].index(original)] = change

@@ -9,15 +9,15 @@ from scipy.spatial.distance import cdist
 
 
 # CSV 파일에서 데이터 읽기
-csv_file_path = './output1.csv'  # 바꿔야 하는 거
+csv_file_path = './output2.csv'  # 바꿔야 하는 거
 df = pd.read_csv(csv_file_path)
 
 # NaN 값이 있는 행 제거
 df.dropna(subset=['xmin', 'ymin', 'xmax', 'ymax'], inplace=True)
 
 # 동영상 파일 경로
-video_path = "C:/Users/MIS/yolov4-deepsort/bae_1.mp4" # 바꿔야 하는 거
-output_video_path = './second_execute1_old_ver.mp4' # 바꿔야 하는 거
+video_path = "C:/Users/MIS/yolov4-deepsort/joo_1.mp4" # 바꿔야 하는 거
+output_video_path = './second_execute2_20240517.mp4' # 바꿔야 하는 거
 
 
 
